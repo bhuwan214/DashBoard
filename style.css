@@ -75,7 +75,7 @@ a{
     grid-column: 4/24;
     grid-row: 1/3;
     display: flex;
-    gap: 70px;
+    gap: 5vw;
 
 }
 .fa-magnifying-glass:hover{
@@ -98,7 +98,7 @@ input{
     background-color: #E3E8F0;
     border: none;
     border-radius: 10px;
-    width:45vw;
+    width:40vw;
     height: 28px;
 
 }
@@ -106,7 +106,7 @@ input{
 
 .user_info{
     margin:10px  10px;
-    width: 700px;
+    width: 30vw;
     height: 65px;
     display: flex;
     align-items: center;
@@ -134,7 +134,7 @@ h4{
 }
 
 p{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -147,7 +147,7 @@ p{
 }
 
 .upper{
-    padding-left: 8%;
+    padding-left:4vw ;
     height: 50px;
     width: auto;
    gap: 20px;
@@ -178,7 +178,7 @@ height: 50px;
 width: 100%;
 display: flex;
 align-items: center;
-gap: 40px;
+gap: 3vw;
 padding:5px 30px;
 
 }
