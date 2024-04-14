@@ -69,7 +69,7 @@ a{
 
 
 .head-section{
-
+    width: fit-content;
     padding-top: 10px;
     font-size:25px ;
     grid-column: 4/24;
@@ -136,7 +136,6 @@ p{
 .second-part{
     height: 100px;
     width: 36vw;
- 
 }
 
 .upper{
@@ -168,7 +167,6 @@ display: flex;
 align-items: center;
 gap: 3vw;
 padding:5px 30px;
-
 }
 
 button{
@@ -196,16 +194,17 @@ button:hover{
     width: 80vw;
     grid-column: 4/20;
     grid-row:3/20; 
-
-
 }
 
-h2{
+h3{
+    background-color: #2c8ee4;
     font-size: 25px;
 
 }
+
 #description{
-font-size: 15px;
+    background-color: beige;
+font-size: 2vw;
 padding: 10px;
 }
 
@@ -213,13 +212,12 @@ padding: 10px;
     width: 100%;
     display: flex;
     justify-content: end;
-    gap: 22px;
+    gap: 2vw;
     margin-right: 20px;
     font-size: 25px;
 }
 
 .project_container{
-
     /* width:26vw;
     height: fit-content; */
     background-color:white;
@@ -230,16 +228,14 @@ padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    gap: 5px;
-     
-
+    gap: 5px;   
 }
 
  
 .content{
     display: grid;
     grid-template-columns: repeat(5 ,1fr)  ;
-grid-template-rows: repeat(5, 1fr);
+grid-template-rows: repeat(3, 1fr);
 grid-gap: 5px;
 }
 
@@ -253,13 +249,11 @@ grid-gap: 5px;
     grid: 1/2;
 } 
 
-
 .long1{
     height: fit-content;
     background-color:white;
     grid-column: 5/6;
     grid-row: 1/5;
-
 
 }
 
