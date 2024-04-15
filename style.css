@@ -135,13 +135,13 @@ p{
 /* Second part of nav */
 .second-part{
     height: 100px;
-    width: 36vw;
+    width:fit-content;
 }
 
 .upper{
     padding-left:4vw ;
     height: 50px;
-    width: auto;
+    width: fit-content;
    gap: 20px;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ p{
 
 .lower{
 height: 50px;
-width: 100%;
+width: fit-content;
 display: flex;
 align-items: center;
 gap: 3vw;
@@ -196,16 +196,15 @@ button:hover{
     grid-row:3/20; 
 }
 
-h3{
-    background-color: #2c8ee4;
+h2{
     font-size: 25px;
-
 }
 
 #description{
-    background-color: beige;
-font-size: 2vw;
-padding: 10px;
+color: rgb(79, 76, 76);
+font-size: 15px;
+padding: 7px;
+font-weight: 400;
 }
 
 .interaction{
@@ -218,8 +217,7 @@ padding: 10px;
 }
 
 .project_container{
-    /* width:26vw;
-    height: fit-content; */
+   
     background-color:white;
     margin: 15px;
     padding: 10px;
@@ -228,7 +226,7 @@ padding: 10px;
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    gap: 5px;   
+    gap: 15px;   
 }
 
  
