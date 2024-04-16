@@ -280,8 +280,68 @@ grid-gap: 5px;
 }
 
 
- /* span{
-    display: none;
-}  */
+ 
 
  
+
+@media (max-width:1199px) {
+
+span{
+    display: none;
+} 
+    .head-section{
+        gap: 3vw;
+    
+    }
+
+    .lower{
+        padding-right: 0;
+        gap: 1.5vw;
+    }
+    
+}
+
+
+@media (max-width:950px) {
+
+    h2{
+        font-size: 20px;
+    }
+    .lower{
+        margin: 0;
+        padding: 0;
+        gap: 1.5vw;
+    }
+
+    .upper{
+        padding-left: 1vw;
+        margin-left: 1vw;
+        gap: 1vw;
+    }
+
+    input{
+        width: 35vw;
+    };
+}
+
+@media (max-width:750px){
+    .side{
+     display: none;
+    }
+
+    .main-content{
+        grid-column: 2/20;
+        
+    }
+.head-section{
+    grid-column: 1/20;
+}
+
+}
+
+@media (max-width:550px){
+    .second-part{
+        display: none;
+    }
+    input:;
+}
