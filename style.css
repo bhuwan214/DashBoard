@@ -343,5 +343,47 @@ span{
     .second-part{
         display: none;
     }
-    input:;
+    input{
+        width: 60vw;
+    }
+
+    .username>p{
+        font-size: 13px;
+        width: max-content;
+        padding: 3px;
+    }
+
+     .first {
+        grid-column:1/5;
+        grid-row: 1/2;
+    }
+
+    .second {
+        grid-column:1/6 ;
+        grid-row: 2/3;
+    }
+    
+    .third {
+        grid-column:1/6 ;
+        grid-row: 3/4;
+    }
+
+    .forth{
+        grid-column:1/6 ;
+        grid-row: 4/5;
+    }
+    .fifth {
+        grid-column:1/6 ;
+        grid-row: 5/6;
+    }
+    .sixth {
+        grid-column:1/6 ;
+        grid-row: 6/7;
+    } 
+    
+.content{
+    grid-template-rows: repeat(6,auto);
+}
+
+
 }
